@@ -14,10 +14,14 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.8.1",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "open": "^8.2.1",
     "parcel": "^2.8.1",
     "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "fm-gofer": "^1.6.3"
   }
 }
